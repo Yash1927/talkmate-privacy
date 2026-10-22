@@ -24,6 +24,11 @@
       font-size: 20px;
     }
 
+    h3 {
+      margin-top: 20px;
+      font-size: 17px;
+    }
+
     code {
       background: #f3f3f3;
       padding: 1px 5px;
@@ -43,68 +48,134 @@
 
 <body>
   <h1>Privacy Policy for TalkMate</h1>
-  <p class="muted">Last updated: 17 June 2026</p>
+  <p class="muted">Last updated: 22 October 2026</p>
 
-  <p>TalkMate (“the App”, “we”, “us”) is operated by Moonlit Studio. This Privacy
-    Policy explains what information we collect, how we use it, and the choices you
-    have. By creating an account and using TalkMate, you agree to this policy.</p>
+  <p>TalkMate: Practice English (“TalkMate”, “the App”, “we”, “us”) is operated by
+    Moonlit Studio. This Privacy Policy explains what information we collect, how we
+    use it, who we share it with, and the choices you have. By creating an account
+    and using TalkMate, you agree to this policy.</p>
 
   <h2>1. Information we collect</h2>
+
+  <h3>Account and profile</h3>
   <ul>
-    <li><strong>Account information:</strong> your email address and a password.
-      Passwords are never stored in plain text — they are stored only as a salted
+    <li><strong>Account information:</strong> your email address and a password, or,
+      if you sign in with Google, the email address and name from your Google account.
+      Passwords are never stored in plain text. They are stored only as a salted
       one-way hash (bcrypt).</li>
-    <li><strong>Profile information you provide:</strong> name, gender, date of
-      birth, country, native language, short bio, and an avatar colour.</li>
-    <li><strong>Messages:</strong> the text messages you send to other users are
-      stored so they can be delivered and shown in your conversation history.</li>
-    <li><strong>Call information:</strong> we record the fact that a call took
-      place (e.g. participants and counts, used for ratings/stats). We do
-      <strong>not</strong> record, store, or listen to the audio of your calls.
-    </li>
+    <li><strong>Profile information you provide:</strong> name, username, gender, date
+      of birth, country, native language, short bio and avatar colour.</li>
+    <li><strong>Name history:</strong> when you change your name, we keep a record of
+      your previous names. Other members can see this list on your profile.</li>
+  </ul>
+
+  <h3>Conversations</h3>
+  <ul>
+    <li><strong>Messages:</strong> text messages you send are delivered through our
+      server. A message waiting for an offline recipient is held on our server only
+      until it is delivered, then removed from the server. Your conversation history
+      is stored on your own device.</li>
+    <li><strong>Calls:</strong> we record that a call took place, who took part and
+      how long you talked (used for ratings, points and the weekly leaderboard). We do
+      <strong>not</strong> record or store the audio of your calls.</li>
+    <li><strong>Voice rooms:</strong> audio in group voice rooms is sent in real time
+      and is not recorded by us. Text messages in a room's chat are shown to the
+      people in that room.</li>
     <li><strong>Ratings:</strong> the like/dislike and star ratings you give or
       receive after a conversation.</li>
-    <li><strong>Presence/usage:</strong> whether you are currently online, used to
-      power matchmaking and buddy lists.</li>
   </ul>
+
+  <h3>Your voice and speech in AI features</h3>
+  <ul>
+    <li><strong>Correction summary (optional, off by default):</strong> if you turn
+      it on in your profile, your own microphone audio during a call (never the
+      other person's) is streamed to our speech-to-text provider to create a
+      transcript. When the call ends, the transcript is sent to our AI provider to
+      find mistakes, and the corrections are shown to you. We do not store this audio
+      or transcript on our servers.</li>
+    <li><strong>Speaking games and Interview Prep:</strong> what you say is recognised
+      on your phone. On some Android versions, a short recording of your answer is
+      also uploaded so it can be transcribed accurately. The text of your answer is
+      sent to our AI provider to score it, give feedback or create the next interview
+      question. Recordings are processed only to give you a result and are not stored
+      on our servers. An Interview Prep session is kept in our server's memory only
+      while it is in progress. Meteor Rush uses only your phone's speech recognition.</li>
+    <li><strong>Read-aloud:</strong> Interview Prep questions are read aloud by your
+      phone's built-in text-to-speech.</li>
+  </ul>
+
+  <h3>Points, safety and app use</h3>
+  <ul>
+    <li><strong>Points and activity:</strong> daily check-ins, points you earn or
+      spend, game results, talk time and your weekly leaderboard score.</li>
+    <li><strong>Safety records:</strong> reports you make or receive, people you block,
+      and any warnings or account suspensions.</li>
+    <li><strong>Presence:</strong> whether you are currently online, used for
+      matchmaking, the Online now list and buddy lists.</li>
+    <li><strong>Notification token:</strong> a push notification token for your
+      device, used to send call, message and Speak-now notifications.</li>
+  </ul>
+  <p>We do not use advertising or analytics tools, and we do not collect your
+    location or contacts.</p>
 
   <h2>2. How your calls work (audio)</h2>
   <p>Voice calls use WebRTC and are sent in real time between participants. Audio
     is encrypted in transit (DTLS-SRTP). When a direct connection isn’t possible,
-    audio is relayed through a TURN server purely to pass it along — it is not
-    recorded or retained. We do not store call audio anywhere.</p>
+    audio is relayed through a TURN server purely to pass it along. It is not
+    recorded or retained. We do not store call audio anywhere. If you turn on
+    Correction summary, only your own voice is transcribed as described above.</p>
 
   <h2>3. How we use information</h2>
   <ul>
     <li>To create and secure your account and keep you signed in.</li>
-    <li>To match you with practice partners and enable calls and messaging.</li>
-    <li>To show your profile, online status, and reputation (ratings) to other
-      users so they can decide whether to talk with you.</li>
-    <li>To operate, maintain, and improve the App.</li>
+    <li>To match you with practice partners and enable calls, voice rooms and
+      messaging.</li>
+    <li>To give you AI feedback on your speaking, score speaking games and run
+      Interview Prep.</li>
+    <li>To show your profile, online status, ratings and leaderboard position to other
+      members.</li>
+    <li>To award points and run the weekly leaderboard.</li>
+    <li>To send you notifications about calls, messages and people waiting to talk.</li>
+    <li>To keep the community safe: review reports, remove harmful content and
+      suspend accounts that break our rules.</li>
+    <li>To operate, maintain and improve the App.</li>
   </ul>
 
-  <h2>4. Information shared with other users</h2>
-  <p>By design, other users of TalkMate can see your profile (name, avatar, bio,
-    country, language, and your aggregate ratings/stats) and can receive the
-    messages you send them. Please don’t share information you wish to keep private.</p>
+  <h2>4. Information shared with other members</h2>
+  <p>By design, other TalkMate members can see your profile (name, username, avatar,
+    bio, country, language, previous names, and your ratings and stats), your
+    position on the weekly leaderboard, and the messages you send them. People in a
+    voice room can hear you when you speak and see your messages in the room chat.
+    Please don’t share information you wish to keep private.</p>
 
   <h2>5. Service providers</h2>
-  <p>We use third-party infrastructure to run the App:</p>
+  <p>We use these third-party services to run the App. They process data only to
+    provide their service to us:</p>
   <ul>
-    <li><strong>Cloud hosting</strong> for our backend server and database.</li>
-    <li><strong>TURN relay provider</strong> to relay call audio when a direct
-      peer-to-peer connection cannot be established.</li>
+    <li><strong>Render</strong> (server hosting) and <strong>Neon</strong> (database).</li>
+    <li><strong>Deepgram</strong> (speech-to-text) for Correction summary, speaking
+      games and Interview Prep.</li>
+    <li><strong>Groq</strong> (AI language model) for corrections, game scoring,
+      Interview Prep and voice room quizzes. If it is unavailable, Google (Gemini) or
+      OpenAI may be used as a backup for corrections.</li>
+    <li><strong>Agora</strong> to carry audio in group voice rooms.</li>
+    <li><strong>Metered</strong> (TURN relay) to relay call audio when a direct
+      connection cannot be made.</li>
+    <li><strong>Google Firebase Cloud Messaging</strong> to deliver push
+      notifications, and <strong>Google Sign-In</strong> if you choose to sign in
+      with Google.</li>
   </ul>
-  <p>These providers process data only to provide their service to us. We do
-    <strong>not</strong> sell your personal information, and we do not share it with
-    third parties for their own advertising or marketing.
-  </p>
+  <p>We do <strong>not</strong> sell your personal information, and we do not share
+    it with third parties for their own advertising or marketing.</p>
 
   <h2>6. Data retention &amp; deletion</h2>
-  <p>We keep your account and content while your account is active. You can request
-    deletion of your account and associated data at any time by emailing us at the
-    address below; we will delete your account data within 30 days of a verified
-    request, except where we must retain certain information to comply with law.</p>
+  <p>We keep your account and content while your account is active. Voice audio and
+    transcripts used for AI features are not kept on our servers after you get your
+    result, and messages are removed from our server once they are delivered. You can
+    request deletion of your account and associated data at any time by emailing us at
+    the address below; we will delete your account data within 30 days of a verified
+    request, except where we must retain certain information to comply with law or to
+    keep the community safe (for example, records of serious rule violations).</p>
 
   <h2>7. Security</h2>
   <p>Connections to our servers use encryption in transit (HTTPS/TLS), call audio
@@ -115,7 +186,8 @@
   <h2>8. Children</h2>
   <p>TalkMate is not directed to children. You must be at least 18 years old to use
     the App. We do not knowingly collect information from anyone under 18; if you
-    believe a child has provided us information, contact us and we will remove it.</p>
+    believe a child has provided us information, contact us and we will remove it.
+    See our <a href="child-safety-policy.html">Child Safety Standards Policy</a>.</p>
 
   <h2>9. Changes to this policy</h2>
   <p>We may update this Privacy Policy from time to time. We will revise the “Last
